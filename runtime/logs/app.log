@@ -1024,3 +1024,61 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1681283005.7577
     'REQUEST_TIME' => 1681283005
 ]
+2023-04-12 11:03:29 [::1][-][-][error][Error] Error: Class "app\assets\AppAsset" not found in C:\xampp\htdocs\laravel_template\public\avg\views\layouts\main.php:13
+Stack trace:
+#0 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\View.php(347): require()
+#1 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#3 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent('    <div class=...')
+#4 C:\xampp\htdocs\laravel_template\public\avg\controllers\SiteController.php(66): yii\base\Controller->render('index', Array)
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#9 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#10 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\laravel_template\public\avg\web\index.php(11): yii\base\Application->run()
+#12 {main}
+2023-04-12 11:03:29 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hl10m2l6d5iqmrno9orvmvfspu'
+    '_csrf' => '24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\laravel_template\\public\\avg\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59171'
+    'SERVER_SOFTWARE' => 'PHP 8.1.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\laravel_template\\public\\avg\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hl10m2l6d5iqmrno9orvmvfspu; _csrf=24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1681286609.5747
+    'REQUEST_TIME' => 1681286609
+]
