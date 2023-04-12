@@ -1082,3 +1082,133 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1681286609.5747
     'REQUEST_TIME' => 1681286609
 ]
+2023-04-12 11:07:49 [::1][-][-][error][Error] Error: Class "kartik\date\DatePicker" not found in C:\xampp\htdocs\laravel_template\public\avg\views\books\_form.php:61
+Stack trace:
+#0 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\View.php(347): require()
+#1 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#3 C:\xampp\htdocs\laravel_template\public\avg\views\books\create.php(21): yii\base\View->render('_form', Array)
+#4 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\web\View.php(220): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\BooksController))
+#7 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\web\Controller.php(54): yii\web\View->renderAjax('create', Array, Object(app\controllers\BooksController))
+#8 C:\xampp\htdocs\laravel_template\public\avg\controllers\BooksController.php(74): yii\web\Controller->renderAjax('create', Array)
+#9 [internal function]: app\controllers\BooksController->actionCreate()
+#10 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#13 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('books/create', Array)
+#14 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\laravel_template\public\avg\web\index.php(11): yii\base\Application->run()
+#16 {main}
+2023-04-12 11:07:49 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hl10m2l6d5iqmrno9orvmvfspu'
+    '_csrf' => '24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\laravel_template\\public\\avg\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59255'
+    'SERVER_SOFTWARE' => 'PHP 8.1.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/books/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\laravel_template\\public\\avg\\web\\index.php'
+    'PATH_INFO' => '/books/create'
+    'PHP_SELF' => '/index.php/books/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_DNT' => '1'
+    'HTTP_X_CSRF_TOKEN' => 'cgHMiIOyEGdEuCXFyBBaWtE_SYV27tKfTff_FGvQ-2EiLP7N5-t-EyOMd_H4RjgKmw8f_zSotPkAnrdMCZ-hNQ=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/books'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hl10m2l6d5iqmrno9orvmvfspu; _csrf=24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1681286869.395
+    'REQUEST_TIME' => 1681286869
+]
+2023-04-12 11:08:00 [::1][-][-][error][Error] Error: Class "kartik\date\DatePicker" not found in C:\xampp\htdocs\laravel_template\public\avg\views\books\_form.php:61
+Stack trace:
+#0 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\View.php(347): require()
+#1 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#3 C:\xampp\htdocs\laravel_template\public\avg\views\books\create.php(21): yii\base\View->render('_form', Array)
+#4 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\web\View.php(220): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\BooksController))
+#7 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\web\Controller.php(54): yii\web\View->renderAjax('create', Array, Object(app\controllers\BooksController))
+#8 C:\xampp\htdocs\laravel_template\public\avg\controllers\BooksController.php(74): yii\web\Controller->renderAjax('create', Array)
+#9 [internal function]: app\controllers\BooksController->actionCreate()
+#10 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#13 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('books/create', Array)
+#14 C:\xampp\htdocs\laravel_template\public\avg\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\laravel_template\public\avg\web\index.php(11): yii\base\Application->run()
+#16 {main}
+2023-04-12 11:08:00 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'hl10m2l6d5iqmrno9orvmvfspu'
+    '_csrf' => '24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\laravel_template\\public\\avg\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '59268'
+    'SERVER_SOFTWARE' => 'PHP 8.1.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/books/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\laravel_template\\public\\avg\\web\\index.php'
+    'PATH_INFO' => '/books/create'
+    'PHP_SELF' => '/index.php/books/create'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_DNT' => '1'
+    'HTTP_X_CSRF_TOKEN' => 'cgHMiIOyEGdEuCXFyBBaWtE_SYV27tKfTff_FGvQ-2EiLP7N5-t-EyOMd_H4RjgKmw8f_zSotPkAnrdMCZ-hNQ=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/books'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hl10m2l6d5iqmrno9orvmvfspu; _csrf=24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1681286880.1575
+    'REQUEST_TIME' => 1681286880
+]

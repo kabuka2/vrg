@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c8a49725a17267ef4540d160d8573113",
+    "content-hash": "4f60635540252cb1982c521d38c4f010",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -474,22 +474,21 @@
         },
         {
             "name": "kartik-v/yii2-widget-datepicker",
-            "version": "dev-master",
+            "version": "v1.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-widget-datepicker.git",
-                "reference": "04ee13be77790ee14d92c34f3181e521f6457639"
+                "reference": "f5f8b396cf03d4a383aad5e7b338f8cb065abf66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-widget-datepicker/zipball/04ee13be77790ee14d92c34f3181e521f6457639",
-                "reference": "04ee13be77790ee14d92c34f3181e521f6457639",
+                "url": "https://api.github.com/repos/kartik-v/yii2-widget-datepicker/zipball/f5f8b396cf03d4a383aad5e7b338f8cb065abf66",
+                "reference": "f5f8b396cf03d4a383aad5e7b338f8cb065abf66",
                 "shasum": ""
             },
             "require": {
                 "kartik-v/yii2-krajee-base": ">=2.0.0"
             },
-            "default-branch": true,
             "type": "yii2-extension",
             "extra": {
                 "branch-alias": {
@@ -527,9 +526,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kartik-v/yii2-widget-datepicker/issues",
-                "source": "https://github.com/kartik-v/yii2-widget-datepicker/tree/master"
+                "source": "https://github.com/kartik-v/yii2-widget-datepicker/tree/v1.4.8"
             },
-            "time": "2022-05-23T02:43:34+00:00"
+            "time": "2021-10-28T03:58:09+00:00"
         },
         {
             "name": "kartik-v/yii2-widget-datetimepicker",
@@ -5637,8 +5636,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "loveorigami/yii2-modal-ajax": 20,
-        "kartik-v/yii2-widget-datepicker": 20
+        "loveorigami/yii2-modal-ajax": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

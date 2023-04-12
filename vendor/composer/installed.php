@@ -3,7 +3,7 @@
         'name' => 'yiisoft/yii2-app-basic',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'bb5f7956373a79a51ab1ff9254245513023480db',
+        'reference' => '4755f617401b329f92e7c158447de46b4f5f9b61',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -236,14 +236,12 @@
             'dev_requirement' => false,
         ),
         'kartik-v/yii2-widget-datepicker' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => '04ee13be77790ee14d92c34f3181e521f6457639',
+            'pretty_version' => 'v1.4.8',
+            'version' => '1.4.8.0',
+            'reference' => 'f5f8b396cf03d4a383aad5e7b338f8cb065abf66',
             'type' => 'yii2-extension',
             'install_path' => __DIR__ . '/../kartik-v/yii2-widget-datepicker',
-            'aliases' => array(
-                0 => '1.4.x-dev',
-            ),
+            'aliases' => array(),
             'dev_requirement' => false,
         ),
         'kartik-v/yii2-widget-datetimepicker' => array(
@@ -785,7 +783,7 @@
         'yiisoft/yii2-app-basic' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'bb5f7956373a79a51ab1ff9254245513023480db',
+            'reference' => '4755f617401b329f92e7c158447de46b4f5f9b61',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -1419,24 +1419,23 @@
         },
         {
             "name": "kartik-v/yii2-widget-datepicker",
-            "version": "dev-master",
-            "version_normalized": "dev-master",
+            "version": "v1.4.8",
+            "version_normalized": "1.4.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-widget-datepicker.git",
-                "reference": "04ee13be77790ee14d92c34f3181e521f6457639"
+                "reference": "f5f8b396cf03d4a383aad5e7b338f8cb065abf66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-widget-datepicker/zipball/04ee13be77790ee14d92c34f3181e521f6457639",
-                "reference": "04ee13be77790ee14d92c34f3181e521f6457639",
+                "url": "https://api.github.com/repos/kartik-v/yii2-widget-datepicker/zipball/f5f8b396cf03d4a383aad5e7b338f8cb065abf66",
+                "reference": "f5f8b396cf03d4a383aad5e7b338f8cb065abf66",
                 "shasum": ""
             },
             "require": {
                 "kartik-v/yii2-krajee-base": ">=2.0.0"
             },
-            "time": "2022-05-23T02:43:34+00:00",
-            "default-branch": true,
+            "time": "2021-10-28T03:58:09+00:00",
             "type": "yii2-extension",
             "extra": {
                 "branch-alias": {
@@ -1475,7 +1474,7 @@
             ],
             "support": {
                 "issues": "https://github.com/kartik-v/yii2-widget-datepicker/issues",
-                "source": "https://github.com/kartik-v/yii2-widget-datepicker/tree/master"
+                "source": "https://github.com/kartik-v/yii2-widget-datepicker/tree/v1.4.8"
             },
             "install-path": "../kartik-v/yii2-widget-datepicker"
         },
