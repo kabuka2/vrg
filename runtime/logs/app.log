@@ -1,0 +1,1026 @@
+2023-04-12 09:58:51 [::1][-][-][error][Error] Error: Class "app\controllers\Response" not found in C:\xampp\htdocs\laravel_template\public\yii\controllers\BooksController.php:99
+Stack trace:
+#0 [internal function]: app\controllers\BooksController->actionAddition()
+#1 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('addition', Array)
+#4 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('books/addition', Array)
+#5 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\laravel_template\public\yii\web\index.php(11): yii\base\Application->run()
+#7 {main}
+2023-04-12 09:58:51 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'SaV2aO_559oMamyxAkSIpBvUtBqaylFSn58ML11m7YwZiEQti6CJrmtePoUyEur0UeTiYNiMNzTS9kR3Pym32A=='
+    'Books' => [
+        'name_book' => 'dqd'
+        'short_description' => 'sfdsd'
+        'image' => ''
+        'hidden_image_status' => '0'
+        'select_authors_book' => [
+            0 => '1'
+        ]
+        'publication_date' => '12.04.2023'
+    ]
+]
+
+$_FILES = [
+    'Books' => [
+        'name' => [
+            'image' => 'pexels-sebastiaan-stam-1097456.jpg'
+        ]
+        'full_path' => [
+            'image' => 'pexels-sebastiaan-stam-1097456.jpg'
+        ]
+        'type' => [
+            'image' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'image' => 'C:\\xampp\\tmp\\phpC336.tmp'
+        ]
+        'error' => [
+            'image' => 0
+        ]
+        'size' => [
+            'image' => 706011
+        ]
+    ]
+    'img' => [
+        'name' => 'pexels-sebastiaan-stam-1097456.jpg'
+        'full_path' => 'pexels-sebastiaan-stam-1097456.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'C:\\xampp\\tmp\\phpC337.tmp'
+        'error' => 0
+        'size' => 706011
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'hl10m2l6d5iqmrno9orvmvfspu'
+    '_csrf' => '24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\laravel_template\\public\\yii\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58037'
+    'SERVER_SOFTWARE' => 'PHP 8.1.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/books/addition'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\laravel_template\\public\\yii\\web\\index.php'
+    'PATH_INFO' => '/books/addition'
+    'PHP_SELF' => '/index.php/books/addition'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1413368'
+    'HTTP_CONTENT_LENGTH' => '1413368'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_DNT' => '1'
+    'HTTP_X_CSRF_TOKEN' => 'I0G0VCWV-kRdKeM4asaYHbnMzYg8whYVMZxgb_bFk55zbIYRQcyUMDodsQxakPpN8_yb8n6EcHN89Sg3lIrJyg=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary9TIVoqbqAFhBZg0B'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary9TIVoqbqAFhBZg0B'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/books'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hl10m2l6d5iqmrno9orvmvfspu; _csrf=24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1681282731.6386
+    'REQUEST_TIME' => 1681282731
+]
+2023-04-12 09:59:02 [::1][-][-][error][Error] Error: Class "app\controllers\Response" not found in C:\xampp\htdocs\laravel_template\public\yii\controllers\BooksController.php:99
+Stack trace:
+#0 [internal function]: app\controllers\BooksController->actionAddition()
+#1 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('addition', Array)
+#4 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('books/addition', Array)
+#5 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\laravel_template\public\yii\web\index.php(11): yii\base\Application->run()
+#7 {main}
+2023-04-12 09:59:02 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'SaV2aO_559oMamyxAkSIpBvUtBqaylFSn58ML11m7YwZiEQti6CJrmtePoUyEur0UeTiYNiMNzTS9kR3Pym32A=='
+    'Books' => [
+        'name_book' => 'dqd'
+        'short_description' => 'sfdsd'
+        'image' => ''
+        'hidden_image_status' => '0'
+        'select_authors_book' => [
+            0 => '1'
+        ]
+        'publication_date' => '12.04.2023'
+    ]
+]
+
+$_FILES = [
+    'Books' => [
+        'name' => [
+            'image' => 'pexels-sebastiaan-stam-1097456.jpg'
+        ]
+        'full_path' => [
+            'image' => 'pexels-sebastiaan-stam-1097456.jpg'
+        ]
+        'type' => [
+            'image' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'image' => 'C:\\xampp\\tmp\\phpEF0B.tmp'
+        ]
+        'error' => [
+            'image' => 0
+        ]
+        'size' => [
+            'image' => 706011
+        ]
+    ]
+    'img' => [
+        'name' => 'pexels-sebastiaan-stam-1097456.jpg'
+        'full_path' => 'pexels-sebastiaan-stam-1097456.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'C:\\xampp\\tmp\\phpEF1C.tmp'
+        'error' => 0
+        'size' => 706011
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'hl10m2l6d5iqmrno9orvmvfspu'
+    '_csrf' => '24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\laravel_template\\public\\yii\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58039'
+    'SERVER_SOFTWARE' => 'PHP 8.1.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/books/addition'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\laravel_template\\public\\yii\\web\\index.php'
+    'PATH_INFO' => '/books/addition'
+    'PHP_SELF' => '/index.php/books/addition'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1413368'
+    'HTTP_CONTENT_LENGTH' => '1413368'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_DNT' => '1'
+    'HTTP_X_CSRF_TOKEN' => 'I0G0VCWV-kRdKeM4asaYHbnMzYg8whYVMZxgb_bFk55zbIYRQcyUMDodsQxakPpN8_yb8n6EcHN89Sg3lIrJyg=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary6JmiWB0Tij6BcFyn'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary6JmiWB0Tij6BcFyn'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/books'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hl10m2l6d5iqmrno9orvmvfspu; _csrf=24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1681282742.8755
+    'REQUEST_TIME' => 1681282742
+]
+2023-04-12 09:59:12 [::1][-][-][error][Error] Error: Class "app\controllers\Response" not found in C:\xampp\htdocs\laravel_template\public\yii\controllers\BooksController.php:99
+Stack trace:
+#0 [internal function]: app\controllers\BooksController->actionAddition()
+#1 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('addition', Array)
+#4 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('books/addition', Array)
+#5 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\laravel_template\public\yii\web\index.php(11): yii\base\Application->run()
+#7 {main}
+2023-04-12 09:59:12 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'SaV2aO_559oMamyxAkSIpBvUtBqaylFSn58ML11m7YwZiEQti6CJrmtePoUyEur0UeTiYNiMNzTS9kR3Pym32A=='
+    'Books' => [
+        'name_book' => 'dqd'
+        'short_description' => 'sfdsd'
+        'image' => ''
+        'hidden_image_status' => '0'
+        'select_authors_book' => [
+            0 => '1'
+        ]
+        'publication_date' => '12.04.2023'
+    ]
+]
+
+$_FILES = [
+    'Books' => [
+        'name' => [
+            'image' => 'pexels-sebastiaan-stam-1097456.jpg'
+        ]
+        'full_path' => [
+            'image' => 'pexels-sebastiaan-stam-1097456.jpg'
+        ]
+        'type' => [
+            'image' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'image' => 'C:\\xampp\\tmp\\php135E.tmp'
+        ]
+        'error' => [
+            'image' => 0
+        ]
+        'size' => [
+            'image' => 706011
+        ]
+    ]
+    'img' => [
+        'name' => 'pexels-sebastiaan-stam-1097456.jpg'
+        'full_path' => 'pexels-sebastiaan-stam-1097456.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'C:\\xampp\\tmp\\php135F.tmp'
+        'error' => 0
+        'size' => 706011
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'hl10m2l6d5iqmrno9orvmvfspu'
+    '_csrf' => '24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\laravel_template\\public\\yii\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58054'
+    'SERVER_SOFTWARE' => 'PHP 8.1.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/books/addition'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\laravel_template\\public\\yii\\web\\index.php'
+    'PATH_INFO' => '/books/addition'
+    'PHP_SELF' => '/index.php/books/addition'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1413368'
+    'HTTP_CONTENT_LENGTH' => '1413368'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_DNT' => '1'
+    'HTTP_X_CSRF_TOKEN' => 'I0G0VCWV-kRdKeM4asaYHbnMzYg8whYVMZxgb_bFk55zbIYRQcyUMDodsQxakPpN8_yb8n6EcHN89Sg3lIrJyg=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryqjbq9F8GJJUyouSZ'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryqjbq9F8GJJUyouSZ'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/books'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hl10m2l6d5iqmrno9orvmvfspu; _csrf=24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1681282752.1627
+    'REQUEST_TIME' => 1681282752
+]
+2023-04-12 10:01:35 [::1][-][-][error][Error] Error: Class "app\controllers\Response" not found in C:\xampp\htdocs\laravel_template\public\yii\controllers\BooksController.php:99
+Stack trace:
+#0 [internal function]: app\controllers\BooksController->actionAddition()
+#1 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('addition', Array)
+#4 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('books/addition', Array)
+#5 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\laravel_template\public\yii\web\index.php(11): yii\base\Application->run()
+#7 {main}
+2023-04-12 10:01:35 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'SaV2aO_559oMamyxAkSIpBvUtBqaylFSn58ML11m7YwZiEQti6CJrmtePoUyEur0UeTiYNiMNzTS9kR3Pym32A=='
+    'Books' => [
+        'name_book' => 'dqd'
+        'short_description' => 'sfdsd'
+        'image' => ''
+        'hidden_image_status' => '0'
+        'select_authors_book' => [
+            0 => '1'
+        ]
+        'publication_date' => '12.04.2023'
+    ]
+]
+
+$_FILES = [
+    'Books' => [
+        'name' => [
+            'image' => 'pexels-sebastiaan-stam-1097456.jpg'
+        ]
+        'full_path' => [
+            'image' => 'pexels-sebastiaan-stam-1097456.jpg'
+        ]
+        'type' => [
+            'image' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'image' => 'C:\\xampp\\tmp\\php41BA.tmp'
+        ]
+        'error' => [
+            'image' => 0
+        ]
+        'size' => [
+            'image' => 706011
+        ]
+    ]
+    'img' => [
+        'name' => 'pexels-sebastiaan-stam-1097456.jpg'
+        'full_path' => 'pexels-sebastiaan-stam-1097456.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'C:\\xampp\\tmp\\php41BB.tmp'
+        'error' => 0
+        'size' => 706011
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'hl10m2l6d5iqmrno9orvmvfspu'
+    '_csrf' => '24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\laravel_template\\public\\yii\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58129'
+    'SERVER_SOFTWARE' => 'PHP 8.1.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/books/addition'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\laravel_template\\public\\yii\\web\\index.php'
+    'PATH_INFO' => '/books/addition'
+    'PHP_SELF' => '/index.php/books/addition'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1413368'
+    'HTTP_CONTENT_LENGTH' => '1413368'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_DNT' => '1'
+    'HTTP_X_CSRF_TOKEN' => 'I0G0VCWV-kRdKeM4asaYHbnMzYg8whYVMZxgb_bFk55zbIYRQcyUMDodsQxakPpN8_yb8n6EcHN89Sg3lIrJyg=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary6qQr5DHgB4Q5GAj3'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary6qQr5DHgB4Q5GAj3'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/books'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hl10m2l6d5iqmrno9orvmvfspu; _csrf=24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1681282895.1199
+    'REQUEST_TIME' => 1681282895
+]
+2023-04-12 10:02:37 [::1][-][-][error][Error] Error: Class "app\controllers\Response" not found in C:\xampp\htdocs\laravel_template\public\yii\controllers\BooksController.php:99
+Stack trace:
+#0 [internal function]: app\controllers\BooksController->actionAddition()
+#1 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('addition', Array)
+#4 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('books/addition', Array)
+#5 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\laravel_template\public\yii\web\index.php(11): yii\base\Application->run()
+#7 {main}
+2023-04-12 10:02:37 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'SaV2aO_559oMamyxAkSIpBvUtBqaylFSn58ML11m7YwZiEQti6CJrmtePoUyEur0UeTiYNiMNzTS9kR3Pym32A=='
+    'Books' => [
+        'name_book' => 'dqd'
+        'short_description' => 'sfdsd'
+        'image' => ''
+        'hidden_image_status' => '0'
+        'select_authors_book' => [
+            0 => '1'
+        ]
+        'publication_date' => '12.04.2023'
+    ]
+]
+
+$_FILES = [
+    'Books' => [
+        'name' => [
+            'image' => 'pexels-sebastiaan-stam-1097456.jpg'
+        ]
+        'full_path' => [
+            'image' => 'pexels-sebastiaan-stam-1097456.jpg'
+        ]
+        'type' => [
+            'image' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'image' => 'C:\\xampp\\tmp\\php364D.tmp'
+        ]
+        'error' => [
+            'image' => 0
+        ]
+        'size' => [
+            'image' => 706011
+        ]
+    ]
+    'img' => [
+        'name' => 'pexels-sebastiaan-stam-1097456.jpg'
+        'full_path' => 'pexels-sebastiaan-stam-1097456.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'C:\\xampp\\tmp\\php365E.tmp'
+        'error' => 0
+        'size' => 706011
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'hl10m2l6d5iqmrno9orvmvfspu'
+    '_csrf' => '24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\laravel_template\\public\\yii\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58163'
+    'SERVER_SOFTWARE' => 'PHP 8.1.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/books/addition'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\laravel_template\\public\\yii\\web\\index.php'
+    'PATH_INFO' => '/books/addition'
+    'PHP_SELF' => '/index.php/books/addition'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1413368'
+    'HTTP_CONTENT_LENGTH' => '1413368'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_DNT' => '1'
+    'HTTP_X_CSRF_TOKEN' => 'I0G0VCWV-kRdKeM4asaYHbnMzYg8whYVMZxgb_bFk55zbIYRQcyUMDodsQxakPpN8_yb8n6EcHN89Sg3lIrJyg=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryWs7LS1uAE81I5Z9q'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryWs7LS1uAE81I5Z9q'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/books'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hl10m2l6d5iqmrno9orvmvfspu; _csrf=24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1681282957.7238
+    'REQUEST_TIME' => 1681282957
+]
+2023-04-12 10:03:21 [::1][-][-][error][Error] Error: Class "app\controllers\Response" not found in C:\xampp\htdocs\laravel_template\public\yii\controllers\BooksController.php:99
+Stack trace:
+#0 [internal function]: app\controllers\BooksController->actionAddition()
+#1 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('addition', Array)
+#4 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('books/addition', Array)
+#5 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\laravel_template\public\yii\web\index.php(11): yii\base\Application->run()
+#7 {main}
+2023-04-12 10:03:21 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'SaV2aO_559oMamyxAkSIpBvUtBqaylFSn58ML11m7YwZiEQti6CJrmtePoUyEur0UeTiYNiMNzTS9kR3Pym32A=='
+    'Books' => [
+        'name_book' => 'dqd'
+        'short_description' => 'sfdsd'
+        'image' => ''
+        'hidden_image_status' => '0'
+        'select_authors_book' => [
+            0 => '1'
+        ]
+        'publication_date' => '12.04.2023'
+    ]
+]
+
+$_FILES = [
+    'Books' => [
+        'name' => [
+            'image' => 'pexels-sebastiaan-stam-1097456.jpg'
+        ]
+        'full_path' => [
+            'image' => 'pexels-sebastiaan-stam-1097456.jpg'
+        ]
+        'type' => [
+            'image' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'image' => 'C:\\xampp\\tmp\\phpDFBE.tmp'
+        ]
+        'error' => [
+            'image' => 0
+        ]
+        'size' => [
+            'image' => 706011
+        ]
+    ]
+    'img' => [
+        'name' => 'pexels-sebastiaan-stam-1097456.jpg'
+        'full_path' => 'pexels-sebastiaan-stam-1097456.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'C:\\xampp\\tmp\\phpDFBF.tmp'
+        'error' => 0
+        'size' => 706011
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'hl10m2l6d5iqmrno9orvmvfspu'
+    '_csrf' => '24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\laravel_template\\public\\yii\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58187'
+    'SERVER_SOFTWARE' => 'PHP 8.1.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/books/addition'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\laravel_template\\public\\yii\\web\\index.php'
+    'PATH_INFO' => '/books/addition'
+    'PHP_SELF' => '/index.php/books/addition'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1413368'
+    'HTTP_CONTENT_LENGTH' => '1413368'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_DNT' => '1'
+    'HTTP_X_CSRF_TOKEN' => 'I0G0VCWV-kRdKeM4asaYHbnMzYg8whYVMZxgb_bFk55zbIYRQcyUMDodsQxakPpN8_yb8n6EcHN89Sg3lIrJyg=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryOow2SBxi8Yo7kH1P'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryOow2SBxi8Yo7kH1P'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/books'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hl10m2l6d5iqmrno9orvmvfspu; _csrf=24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1681283001.0911
+    'REQUEST_TIME' => 1681283001
+]
+2023-04-12 10:03:25 [::1][-][-][error][Error] Error: Class "app\controllers\Response" not found in C:\xampp\htdocs\laravel_template\public\yii\controllers\BooksController.php:99
+Stack trace:
+#0 [internal function]: app\controllers\BooksController->actionAddition()
+#1 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('addition', Array)
+#4 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('books/addition', Array)
+#5 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\laravel_template\public\yii\web\index.php(11): yii\base\Application->run()
+#7 {main}
+2023-04-12 10:03:25 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'SaV2aO_559oMamyxAkSIpBvUtBqaylFSn58ML11m7YwZiEQti6CJrmtePoUyEur0UeTiYNiMNzTS9kR3Pym32A=='
+    'Books' => [
+        'name_book' => 'dqd'
+        'short_description' => 'sfdsd'
+        'image' => ''
+        'hidden_image_status' => '0'
+        'select_authors_book' => [
+            0 => '1'
+        ]
+        'publication_date' => '12.04.2023'
+    ]
+]
+
+$_FILES = [
+    'Books' => [
+        'name' => [
+            'image' => 'pexels-sebastiaan-stam-1097456.jpg'
+        ]
+        'full_path' => [
+            'image' => 'pexels-sebastiaan-stam-1097456.jpg'
+        ]
+        'type' => [
+            'image' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'image' => 'C:\\xampp\\tmp\\phpEF9E.tmp'
+        ]
+        'error' => [
+            'image' => 0
+        ]
+        'size' => [
+            'image' => 706011
+        ]
+    ]
+    'img' => [
+        'name' => 'pexels-sebastiaan-stam-1097456.jpg'
+        'full_path' => 'pexels-sebastiaan-stam-1097456.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'C:\\xampp\\tmp\\phpEF9F.tmp'
+        'error' => 0
+        'size' => 706011
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'hl10m2l6d5iqmrno9orvmvfspu'
+    '_csrf' => '24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\laravel_template\\public\\yii\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58191'
+    'SERVER_SOFTWARE' => 'PHP 8.1.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/books/addition'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\laravel_template\\public\\yii\\web\\index.php'
+    'PATH_INFO' => '/books/addition'
+    'PHP_SELF' => '/index.php/books/addition'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1413368'
+    'HTTP_CONTENT_LENGTH' => '1413368'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_DNT' => '1'
+    'HTTP_X_CSRF_TOKEN' => 'I0G0VCWV-kRdKeM4asaYHbnMzYg8whYVMZxgb_bFk55zbIYRQcyUMDodsQxakPpN8_yb8n6EcHN89Sg3lIrJyg=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryIbrAoeVASfif4m8v'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryIbrAoeVASfif4m8v'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/books'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hl10m2l6d5iqmrno9orvmvfspu; _csrf=24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1681283005.1438
+    'REQUEST_TIME' => 1681283005
+]
+2023-04-12 10:03:25 [::1][-][-][error][Error] Error: Class "app\controllers\Response" not found in C:\xampp\htdocs\laravel_template\public\yii\controllers\BooksController.php:99
+Stack trace:
+#0 [internal function]: app\controllers\BooksController->actionAddition()
+#1 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('addition', Array)
+#4 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('books/addition', Array)
+#5 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\laravel_template\public\yii\web\index.php(11): yii\base\Application->run()
+#7 {main}
+2023-04-12 10:03:25 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'SaV2aO_559oMamyxAkSIpBvUtBqaylFSn58ML11m7YwZiEQti6CJrmtePoUyEur0UeTiYNiMNzTS9kR3Pym32A=='
+    'Books' => [
+        'name_book' => 'dqd'
+        'short_description' => 'sfdsd'
+        'image' => ''
+        'hidden_image_status' => '0'
+        'select_authors_book' => [
+            0 => '1'
+        ]
+        'publication_date' => '12.04.2023'
+    ]
+]
+
+$_FILES = [
+    'Books' => [
+        'name' => [
+            'image' => 'pexels-sebastiaan-stam-1097456.jpg'
+        ]
+        'full_path' => [
+            'image' => 'pexels-sebastiaan-stam-1097456.jpg'
+        ]
+        'type' => [
+            'image' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'image' => 'C:\\xampp\\tmp\\phpF00E.tmp'
+        ]
+        'error' => [
+            'image' => 0
+        ]
+        'size' => [
+            'image' => 706011
+        ]
+    ]
+    'img' => [
+        'name' => 'pexels-sebastiaan-stam-1097456.jpg'
+        'full_path' => 'pexels-sebastiaan-stam-1097456.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'C:\\xampp\\tmp\\phpF00F.tmp'
+        'error' => 0
+        'size' => 706011
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'hl10m2l6d5iqmrno9orvmvfspu'
+    '_csrf' => '24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\laravel_template\\public\\yii\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58192'
+    'SERVER_SOFTWARE' => 'PHP 8.1.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/books/addition'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\laravel_template\\public\\yii\\web\\index.php'
+    'PATH_INFO' => '/books/addition'
+    'PHP_SELF' => '/index.php/books/addition'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1413368'
+    'HTTP_CONTENT_LENGTH' => '1413368'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_DNT' => '1'
+    'HTTP_X_CSRF_TOKEN' => 'I0G0VCWV-kRdKeM4asaYHbnMzYg8whYVMZxgb_bFk55zbIYRQcyUMDodsQxakPpN8_yb8n6EcHN89Sg3lIrJyg=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryUV2jsl97wBYDKMmZ'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryUV2jsl97wBYDKMmZ'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/books'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hl10m2l6d5iqmrno9orvmvfspu; _csrf=24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1681283005.2498
+    'REQUEST_TIME' => 1681283005
+]
+2023-04-12 10:03:25 [::1][-][-][error][Error] Error: Class "app\controllers\Response" not found in C:\xampp\htdocs\laravel_template\public\yii\controllers\BooksController.php:99
+Stack trace:
+#0 [internal function]: app\controllers\BooksController->actionAddition()
+#1 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('addition', Array)
+#4 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('books/addition', Array)
+#5 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\laravel_template\public\yii\web\index.php(11): yii\base\Application->run()
+#7 {main}
+2023-04-12 10:03:25 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'SaV2aO_559oMamyxAkSIpBvUtBqaylFSn58ML11m7YwZiEQti6CJrmtePoUyEur0UeTiYNiMNzTS9kR3Pym32A=='
+    'Books' => [
+        'name_book' => 'dqd'
+        'short_description' => 'sfdsd'
+        'image' => ''
+        'hidden_image_status' => '0'
+        'select_authors_book' => [
+            0 => '1'
+        ]
+        'publication_date' => '12.04.2023'
+    ]
+]
+
+$_FILES = [
+    'Books' => [
+        'name' => [
+            'image' => 'pexels-sebastiaan-stam-1097456.jpg'
+        ]
+        'full_path' => [
+            'image' => 'pexels-sebastiaan-stam-1097456.jpg'
+        ]
+        'type' => [
+            'image' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'image' => 'C:\\xampp\\tmp\\phpF139.tmp'
+        ]
+        'error' => [
+            'image' => 0
+        ]
+        'size' => [
+            'image' => 706011
+        ]
+    ]
+    'img' => [
+        'name' => 'pexels-sebastiaan-stam-1097456.jpg'
+        'full_path' => 'pexels-sebastiaan-stam-1097456.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'C:\\xampp\\tmp\\phpF13A.tmp'
+        'error' => 0
+        'size' => 706011
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'hl10m2l6d5iqmrno9orvmvfspu'
+    '_csrf' => '24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\laravel_template\\public\\yii\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58195'
+    'SERVER_SOFTWARE' => 'PHP 8.1.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/books/addition'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\laravel_template\\public\\yii\\web\\index.php'
+    'PATH_INFO' => '/books/addition'
+    'PHP_SELF' => '/index.php/books/addition'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1413368'
+    'HTTP_CONTENT_LENGTH' => '1413368'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_DNT' => '1'
+    'HTTP_X_CSRF_TOKEN' => 'I0G0VCWV-kRdKeM4asaYHbnMzYg8whYVMZxgb_bFk55zbIYRQcyUMDodsQxakPpN8_yb8n6EcHN89Sg3lIrJyg=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryjzIevXJBWfQpjzBB'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryjzIevXJBWfQpjzBB'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/books'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hl10m2l6d5iqmrno9orvmvfspu; _csrf=24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1681283005.5636
+    'REQUEST_TIME' => 1681283005
+]
+2023-04-12 10:03:25 [::1][-][-][error][Error] Error: Class "app\controllers\Response" not found in C:\xampp\htdocs\laravel_template\public\yii\controllers\BooksController.php:99
+Stack trace:
+#0 [internal function]: app\controllers\BooksController->actionAddition()
+#1 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('addition', Array)
+#4 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('books/addition', Array)
+#5 C:\xampp\htdocs\laravel_template\public\yii\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\laravel_template\public\yii\web\index.php(11): yii\base\Application->run()
+#7 {main}
+2023-04-12 10:03:25 [::1][-][-][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'SaV2aO_559oMamyxAkSIpBvUtBqaylFSn58ML11m7YwZiEQti6CJrmtePoUyEur0UeTiYNiMNzTS9kR3Pym32A=='
+    'Books' => [
+        'name_book' => 'dqd'
+        'short_description' => 'sfdsd'
+        'image' => ''
+        'hidden_image_status' => '0'
+        'select_authors_book' => [
+            0 => '1'
+        ]
+        'publication_date' => '12.04.2023'
+    ]
+]
+
+$_FILES = [
+    'Books' => [
+        'name' => [
+            'image' => 'pexels-sebastiaan-stam-1097456.jpg'
+        ]
+        'full_path' => [
+            'image' => 'pexels-sebastiaan-stam-1097456.jpg'
+        ]
+        'type' => [
+            'image' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'image' => 'C:\\xampp\\tmp\\phpF206.tmp'
+        ]
+        'error' => [
+            'image' => 0
+        ]
+        'size' => [
+            'image' => 706011
+        ]
+    ]
+    'img' => [
+        'name' => 'pexels-sebastiaan-stam-1097456.jpg'
+        'full_path' => 'pexels-sebastiaan-stam-1097456.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'C:\\xampp\\tmp\\phpF207.tmp'
+        'error' => 0
+        'size' => 706011
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'hl10m2l6d5iqmrno9orvmvfspu'
+    '_csrf' => '24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\xampp\\htdocs\\laravel_template\\public\\yii\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '58198'
+    'SERVER_SOFTWARE' => 'PHP 8.1.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/books/addition'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\laravel_template\\public\\yii\\web\\index.php'
+    'PATH_INFO' => '/books/addition'
+    'PHP_SELF' => '/index.php/books/addition'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1413368'
+    'HTTP_CONTENT_LENGTH' => '1413368'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_DNT' => '1'
+    'HTTP_X_CSRF_TOKEN' => 'I0G0VCWV-kRdKeM4asaYHbnMzYg8whYVMZxgb_bFk55zbIYRQcyUMDodsQxakPpN8_yb8n6EcHN89Sg3lIrJyg=='
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryJQ1a9Wf7lBHAzy0j'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryJQ1a9Wf7lBHAzy0j'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_REFERER' => 'http://localhost:8080/books'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=hl10m2l6d5iqmrno9orvmvfspu; _csrf=24ec26a7c813d35de17c76c9ee1b1adba10d6a57087f8a64931e55237c8dee77a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22P-2EdYntg4R40VbPJ0VzBFffMiHXbOZT%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1681283005.7577
+    'REQUEST_TIME' => 1681283005
+]
